@@ -53,7 +53,7 @@ flowchart LR
 
 ## Tecnologias
 
-- **LangChain** e **Gemini** (`gemini-3.8-flash` para o LLM e `gemini-embedding-001` para os embeddings) (os modelos do Gemini são trocados com frequência)
+- **LangChain** e **Gemini** (`gemini-3.5-flash-lite` para o LLM e `gemini-embedding-001` para os embeddings)
 - **Pydantic** (saída estruturada)
 - **PyMuPDF** (leitura de PDFs), **FAISS** (busca por similaridade)
 - **LangGraph** (orquestração)
@@ -71,6 +71,8 @@ flowchart LR
 4. Abra `agente_triagem_service_desk.ipynb` e execute as células em ordem. No Colab, envie antes a pasta `politicas/` para o ambiente.
 
 > **Nunca coloque a chave da API no código nem em arquivos enviados ao GitHub.**
+>
+> Os modelos do Gemini mudam com frequência. Se aparecer o erro `404 NOT_FOUND` de modelo, consulte a lista atual no Google AI Studio e troque o nome na célula do `ChatGoogleGenerativeAI` (e, se preciso, o modelo de embeddings).
 
 ## Estrutura do repositório
 
