@@ -1,0 +1,10 @@
+langchain
+langchain-classic
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+google-generativeai
+faiss-cpu
+pymupdf
+langgraph
+jupyter
