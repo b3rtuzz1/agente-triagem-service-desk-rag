@@ -53,7 +53,7 @@ flowchart LR
 
 ## Tecnologias
 
-- **LangChain** e **Gemini** (`gemini-2.5-flash` para o LLM e `gemini-embedding-001` para os embeddings)
+- **LangChain** e **Gemini** (`gemini-3.8-flash` para o LLM e `gemini-embedding-001` para os embeddings) (os modelos do Gemini são trocados com frequência)
 - **Pydantic** (saída estruturada)
 - **PyMuPDF** (leitura de PDFs), **FAISS** (busca por similaridade)
 - **LangGraph** (orquestração)
