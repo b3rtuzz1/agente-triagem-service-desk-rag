@@ -1,0 +1,12 @@
+# Segredos
+.env
+*.key
+
+# Notebooks e Python
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Índices vetoriais gerados localmente
+*.faiss
+*.pkl
